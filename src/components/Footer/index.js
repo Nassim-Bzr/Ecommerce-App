@@ -6,6 +6,7 @@ export default function Footer() {
     <div className='footer'>
       <div className='whoarewe'>
         <h1> Qui sommes-nous ?</h1>
+        <ul className='ul-linkwhoarewe'>
         <Link className='link-whoarewe' to='/qui-sommes-nous'>
           Notre histoire
         </Link>
@@ -15,6 +16,7 @@ export default function Footer() {
         <Link className='link-whoarewe' to='/qui-sommes-nous'>
           L'équipe
         </Link>
+      </ul>
       </div>
 
 

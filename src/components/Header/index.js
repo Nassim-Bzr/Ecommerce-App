@@ -2,12 +2,13 @@ import React from 'react'
 import './Header.css'
 import { Link } from "react-router-dom"
 import Accueil from '../../Assets/accueil.png'
-
+import Logo from '../../Assets/logo.svg'
 export default function Header() {
     return (
         <>
             <div className='navbar-header'>
-                
+
+            <img className='logo' src={Logo} alt="Accueil" />
             <ul className='list-linkheader'>
 
             <li className='link-header'>

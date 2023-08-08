@@ -1,0 +1,14 @@
+.home-container {
+  width: 100vw; /* 100% de la largeur de la fenêtre */
+  height: auto;
+  overflow: hidden; /* Assure que l'image ne dépasse pas les limites de la div */
+  display: flex;
+  justify-content: center; /* Centre l'image horizontalement */
+  align-items: center; /* Centre l'image verticalement */
+
+ 
+}
+ .img-accueil {
+    width: 100%;
+    height: auto;
+  }

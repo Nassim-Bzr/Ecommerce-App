@@ -1,9 +1,28 @@
+.whorearewe{
+    display: flex;
+    flex-direction: column;
+}
+.ul-linkwhoarewe{
+    display: flex;
+    flex-direction: column;
+}
 .link-whoarewe{
    color: #FFA401;
+   margin: 8px;
+   flex-direction: column;
+   font-weight: bold;
+
 }
 .footer{
     background-color: #1B1B1B ;
+    /* position:fixed; */
+    bottom:0;
+    width: 100%;
 }
 h1{
-   color: #FFC865
+   color: #FFC84D;
+   font-weight: bold;
+   margin: 32px;
+   padding: 16px;
+   padding-top:64px;
 }
