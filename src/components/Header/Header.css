@@ -1,0 +1,36 @@
+.link-header{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    /* color: white; */
+}
+.link-headerr{
+ 
+    color: rgb(255, 255, 255);
+    /* color: white; */
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:#FFA401 ;
+    margin-top: 16px;
+    /* position: relative;
+    top: 10px; */
+}
+
+
+.list-linkheader{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+    
+}
+.navbar-header{
+    background-color:#333333;
+}
+
+.logo-accueil {
+    height: 32px;
+    width:32px;
+    position: relative;
+    top: 8px;
+}
